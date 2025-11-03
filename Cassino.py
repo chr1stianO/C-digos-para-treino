@@ -14,12 +14,6 @@ while True:
     elif palpite < num_maquina or palpite > num_maquina:
         print(f"Você errou! Tente novamente")
         poupanca -= 100
-        
-        input("Você quer continuar jogando? Sim/Não ")
-        if "Sim" or "sim" in input:
-            continue
-        if "Não" or "não" in input:
-            break
     if poupanca <= 0:
         print("Seu dinheiro acabou! Jogo encerrado.")
         break
