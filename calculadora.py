@@ -1,3 +1,4 @@
+print("Bem vindo à calculadora!")
 while True:
     input_usuario = input("Digite a operação (+, -, *, /) ou 'sair' para encerrar: ")
     if input_usuario.lower() == "sair":
@@ -20,4 +21,5 @@ while True:
                 resultado = num1 / num2
                 print(resultado)
             else:
+
                 print("Erro: Divisão por zero não é permitido.")
