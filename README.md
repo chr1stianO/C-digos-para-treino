@@ -1,2 +1,2 @@
 # C-digos-para-treino
-apenas alguns códigos para treinar
+apenas alguns códigos para treinar, aceito dicas e críticas construtivas.
