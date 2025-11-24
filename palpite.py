@@ -5,6 +5,7 @@ while True:
     if palpite == computador:
         print('Você acertou!')
     if palpite > computador:
-        print(f'você errou o número escolhido é menor')
+        print('você errou o número escolhido é menor')
     if palpite < computador:
+
         print('você errou o número escolhido é maior')
